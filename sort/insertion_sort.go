@@ -1,6 +1,6 @@
 package sort
 
-// InsertionSort is a simplest sorting algorithm with complexity O(n**2)
+// InsertionSort is a sorting algorithm with complexity O(n**2)
 func InsertionSort(array []int) []int {
 	for i := 1; i < len(array); i++ {
 		key := array[i]
